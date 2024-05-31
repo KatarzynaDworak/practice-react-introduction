@@ -6,10 +6,10 @@ const root = createRoot(document.querySelector('#root'));
 
 const App = () => {
     return (
-    <MenuItem>TEST</MenuItem>
+        <div>
+            <MenuItem />
+        </div>
     );
 }
-
-
 
 root.render(<App />);
